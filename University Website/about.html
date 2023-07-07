@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCU University</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="eduford_img/favicon.png" type="image/x-icon">
+
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-window-close' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick=showMenu()></i>
+        </nav>
+        <h1>ABOUT US</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the worlds Largest University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, accusantium fugiat cumque minus assumenda ipsam commodi ab voluptatem nulla numquam atque suscipit quidem esse! Nostrum quia ex cum ipsa, aliquid officia. Harum ipsa nisi libero aut. Explicabo, maiores nam cupiditate nisi autem eos ex minima!</p>
+                <a href="" class="btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="eduford_img/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Quisquam nemo ad est quae at quia consequuntur labore quaerat nostrum placeat, alias debitis. Officia, iste.</p>
+    <div class="icons">
+        <i class='bx bxl-facebook-circle' ></i>
+        <i class='bx bxl-twitter' ></i>
+        <i class='bx bxl-instagram' ></i>
+        <i class='bx bxl-linkedin-square' ></i>
+        <i class='bx bxl-reddit' ></i>
+    </div>
+    <p>Made with <i class='bx bxs-heart' ></i> by the students of the School </p>
+</section>
+
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
